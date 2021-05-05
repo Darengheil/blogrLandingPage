@@ -28,7 +28,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;    
-    padding: 4em 6em;
+    padding: 4em 12em;
     justify-content: space-between;
     position: relative;
 }
@@ -260,6 +260,7 @@ nav a{
     justify-content: flex-end;
     align-items: center;
     padding: 10em 0;
+    padding-bottom: 15em;
 }
 
 .thirdItemText{
@@ -270,6 +271,54 @@ nav a{
 .laptopImage{
     position: absolute;    
     left: -5%;
+}
+
+footer{
+    background-color: hsl(240, 10%, 16%);
+    border-top-right-radius: 80px;
+    padding: 5em 12em;
+    padding-right: 25em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLogo{
+    width: 90px;
+    height: 40px;
+}
+
+.footerLinksTitle{
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.footerLinks{
+    margin-top: 2em;
+}
+
+.footerLinks li a{
+    line-height: 2em;
+}
+
+footer a {    
+    text-decoration: none;
+    outline: none;   
+    color: hsl(240, 2%, 79%);
+    font-family: "Ubuntu";
+    font-size: 16px;
+}
+
+footer ul{    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: white;
 }
 
 @media (max-width: 900px) {
