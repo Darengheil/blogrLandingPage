@@ -191,8 +191,8 @@ nav a{
 }
 
 .firstItem{
-    padding-top: 10em;
-    padding-bottom: 20em;
+    padding-top: 5em;
+    padding-bottom: 18em;
     position: relative;
     overflow: hidden;
 }
@@ -221,7 +221,7 @@ nav a{
 
 .editorImage{
     position: absolute;
-    top: 10%;
+    top: 5%;
     left: 55%;
 }
 
@@ -231,7 +231,7 @@ nav a{
     background: linear-gradient(135deg, rgba(44,45,63,1) 0%, rgba(63,65,100,1) 35%);
     align-items: center;
     padding: 7em;
-    margin-bottom: 20em;
+    margin-bottom: 5em;
     justify-content: flex-end;
     border-bottom-left-radius: 80px;
     border-top-right-radius: 80px;
@@ -246,13 +246,30 @@ nav a{
 
 .phonesImage{
     position: absolute;
-    left: 15%;
-    top: 165%;
+    left: 10%;
+    top: 152%;
 }
 .circlesPhones{
     position: absolute;
     left: -5%;
     top: -120%;
+}
+
+.thirdItem{
+    display : flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10em 0;
+}
+
+.thirdItemText{
+    width: 30em;
+    margin-right: 17em;
+}
+
+.laptopImage{
+    position: absolute;    
+    left: -5%;
 }
 
 @media (max-width: 900px) {
