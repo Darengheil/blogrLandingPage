@@ -2,48 +2,66 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" type="text/css" href="styles.css">  
   <title>Frontend Mentor | [Blogr]</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  Product
+  <div class="container">
+    <div class="upperPart">
+      <img src="images/bg-pattern-intro.svg" class="introImage">
+      <div class="header">
+        <div class="leftUppercontainer">
+          <img src="images/logo.svg" class="logo">
+          <nav class="uppernav">
+            <ul class="topmenu">            
+              <li>
+                <a href="" class="down">Product <img src="images/icon-arrow-light.svg" class="arrow"></a>
+                <ul class="submenu">
+                  <li><a href="">Overview</a></li>
+                  <li><a href="">Pricing</a></li>
+                  <li><a href="">Marketplace</a></li>
+                  <li><a href="">Features</a></li>
+                  <li><a href="">Integrations</a></li>
+                </ul>
+              </li>
+              <li><a href="" class="down">Company <img src="images/icon-arrow-light.svg" class="arrow"></a>
+                <ul class="submenu">
+                  <li><a href="">About</a></li>
+                  <li><a href="">Team</a></li>
+                  <li><a href="">Blog</a></li>
+                  <li><a href="">Careers</a></li>
+                </ul>
+              </li>
+              <li><a href="" class="down" >Connect<img src="images/icon-arrow-light.svg" class="arrow"></a>
+                <ul class="submenu">                
+                  <li><a href="">Contact</a></li>
+                  <li><a href="">Newsletter</a></li>
+                  <li><a href="">LinkedIn</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <button type="button" class="loginButton">Login</button>
+          <button type="button" class="SignUpButton">Sign Up</button>
+        </div>
+      </div>
+      <div class="descriptionForHeader">
+        <h1 style="color:white; font-size: 60px; margin-bottom: 0;">A modern publishing platform</h1>
+        <p style="color: white; font-size: 20px; margin-top: 0.5em;">Grow your audience and build your online brand</p>
+        <div class="buttonHeaderContainer">
+          <button type="button" class="startForFreeButton">Start for Free</button>
+          <button type="button" class="learnMoreButton">Learn More</button>
+        </div>
+      </div>
+    </div>
+    <div class="mainPart">
 
-  Overview
-  Pricing
-  Marketplace
-  Features
-  Integrations
-
-  Company
-
-  About
-  Team
-  Blog
-  Careers
-
-  Connect
-
-  Contact
-  Newsletter
-  LinkedIn
-  
-  Login
-  Sign Up
-
-  A modern publishing platform
-  Grow your audience and build your online brand
-
-  Start for Free
-  Learn More
+    </div>
+  </div>
 
   Designed for the future
 
@@ -90,10 +108,8 @@
   Contact
   Newsletter
   LinkedIn
+  <footer>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </footer>
 </body>
 </html>

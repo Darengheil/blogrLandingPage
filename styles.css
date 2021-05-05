@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+
+body{
+    font-family: "Overpass";
+    font-size: 16px;
+    margin: 0;
+}
+
+.container{
+
+}
+
+.upperPart{
+    background: rgb(255,143,112);
+    background: linear-gradient(135deg, rgba(255,143,112,1) 0%, rgba(255,61,84,1) 35%);
+    border-bottom-left-radius: 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+.introImage{
+    position: absolute;
+    top: -270%;
+    left: -35%;
+}
+
+.leftUppercontainer{
+    display: flex;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    padding: 4em 6em;
+    justify-content: space-between;
+    position: relative;
+}
+
+.uppernav{
+    margin-left: 3em;
+}
+
+.logo{
+    width: 90px;
+    height: 40px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    outline: none;   
+    color: hsl(0, 0%, 85%); 
+}
+
+.topmenu{
+    backface-visibility: hidden;
+    display: flex;
+}
+
+.topmenu > li {
+    display: inline-block;
+    position: relative;  
+}
+
+.topmenu > li > a {
+    font-family: "Ubuntu";
+    font-weight: 500;
+    padding: 1em;
+}
+
+.arrow{
+    margin-left: 5px;
+}
+
+.topmenu li a:hover .arrow{    
+    transform: scaleY(-1);
+}
+
+.topmenu li a:hover{
+    text-decoration:underline;
+    color: hsl(0, 0%, 100%);
+}
+
+.submenu{
+    width: 100px;
+    background: white;
+    padding: 2em 1em;
+    border-radius: 5px;
+    box-shadow: 0 10px 40px rgb(150, 150, 150);
+    position: absolute;
+    visibility: hidden;
+    z-index: 10;
+}
+
+.topmenu > li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+.submenu li a{
+    color: black;
+    line-height: 2em;
+    font-size: 15px;
+}
+
+.submenu li a:hover{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.loginButton{
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(0, 0%, 85%);
+    background:none;
+    border: none;
+    margin-right: 2em;
+}
+
+.loginButton:hover{
+    cursor: pointer;
+}
+
+.SignUpButton{
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(356, 100%, 66%);
+    background-color: white;
+    border: none;
+    padding: 1em 2.5em;
+    border-radius: 30px;
+}
+
+.SignUpButton:hover{
+    cursor: pointer;
+    background-color:hsl(355, 100%, 74%);
+    color: white;
+}
+
+.descriptionForHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.buttonHeaderContainer{
+    margin-top: 1em;
+    margin-bottom: 10em;
+}
+
+.startForFreeButton{    
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(356, 100%, 66%);
+    background-color: white;
+    border: none;
+    padding: 1em 2em;
+    border-radius: 30px;
+}
+
+.startForFreeButton:hover{
+    cursor: pointer;
+    background-color:hsl(355, 100%, 74%);
+    color: white;
+}
+
+.learnMoreButton{
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background: none;
+    border: 1px solid white;
+    padding: 1em 2em;
+    border-radius: 30px;
+    margin-left: 1em;
+}
+
+.learnMoreButton:hover{    
+    cursor: pointer;
+    background-color: white;
+    color: hsl(355, 100%, 74%);
+}

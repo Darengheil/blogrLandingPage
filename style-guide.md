@@ -29,10 +29,16 @@ Background gradient - Intro/CTA mobile nav:
 - Very light red: hsl(13, 100%, 72%)
 - Light red: hsl(353, 100%, 62%)
 
+<!-- background: rgb(255,143,112);
+background: linear-gradient(135deg, rgba(255,143,112,1) 0%, rgba(255,61,84,1) 35%); -->
+
 Background gradient - body:
 
 - Very dark gray blue: hsl(237, 17%, 21%)
 - Very dark desaturated blue: hsl(237, 23%, 32%)
+
+<!-- background: rgb(44,45,63);
+background: linear-gradient(135deg, rgba(44,45,63,1) 0%, rgba(63,65,100,1) 35%); -->
 
 ## Typography
 
