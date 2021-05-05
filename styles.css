@@ -6,10 +6,6 @@ body{
     margin: 0;
 }
 
-.container{
-
-}
-
 .upperPart{
     background: rgb(255,143,112);
     background: linear-gradient(135deg, rgba(255,143,112,1) 0%, rgba(255,61,84,1) 35%);
@@ -192,4 +188,73 @@ nav a{
     cursor: pointer;
     background-color: white;
     color: hsl(355, 100%, 74%);
+}
+
+.firstItem{
+    padding-top: 10em;
+    padding-bottom: 20em;
+    position: relative;
+    overflow: hidden;
+}
+
+.firstItemandImage{
+    display: flex; 
+    margin-top: 4em;
+    margin-left: 12em;
+}
+
+.textFirstItem{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5em;
+    width: 30em;
+    position: relative;
+}
+
+.textBodyItems{
+    font-family: "Overpass";
+    font-size: 15px;
+    line-height: 2em;
+    color: hsl(207, 13%, 34%);
+    font-weight: 300;
+}
+
+.editorImage{
+    position: absolute;
+    top: 10%;
+    left: 55%;
+}
+
+.secondItem{
+    display: flex;
+    background: rgb(44,45,63);
+    background: linear-gradient(135deg, rgba(44,45,63,1) 0%, rgba(63,65,100,1) 35%);
+    align-items: center;
+    padding: 7em;
+    margin-bottom: 20em;
+    justify-content: flex-end;
+    border-bottom-left-radius: 80px;
+    border-top-right-radius: 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+.secondItemText{    
+    width: 40em;
+    z-index: 10;
+}
+
+.phonesImage{
+    position: absolute;
+    left: 15%;
+    top: 165%;
+}
+.circlesPhones{
+    position: absolute;
+    left: -5%;
+    top: -120%;
+}
+
+@media (max-width: 900px) {
+
 }
