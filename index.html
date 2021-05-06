@@ -44,7 +44,7 @@
             </ul>
           </nav>
         </div>
-        <img src="images/icon-hamburger.svg" class="buttonForMenu">
+        <input type="image" src="images/icon-hamburger.svg" class="buttonForMenu" onclick="makeMenu()">
         <div class="upperButtonsContainer">
           <button type="button" class="loginButton">Login</button>
           <button type="button" class="SignUpButton">Sign Up</button>
@@ -57,6 +57,47 @@
           <button type="button" class="startForFreeButton">Start for Free</button>
           <button type="button" class="learnMoreButton">Learn More</button>
         </div>
+      </div>      
+    </div>
+    <div class="forMenuFormButton">
+      <nav>
+        <ul class="topmenu">            
+          <li>
+            <a href="" class="downforMobile" onclick="showMenu()">Product <img src="images/icon-arrow-dark.svg" class="arrow"></a>
+            <div class="submenuforMobile">
+              <ul class="listforSubMenuForMobile">
+                <li><a href="">Overview</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Marketplace</a></li>
+                <li><a href="">Features</a></li>
+                <li><a href="">Integrations</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="" class="downforMobile" onclick="showMenu()">Company <img src="images/icon-arrow-dark.svg" class="arrow"></a>
+            <div class="submenuforMobile">
+              <ul class="listforSubMenuForMobile">
+                <li><a href="">About</a></li>
+                <li><a href="">Team</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Careers</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="" class="downforMobile" onclick="showMenu()">Connect<img src="images/icon-arrow-dark.svg" class="arrow"></a>
+            <div class="submenuforMobile">
+              <ul class="listforSubMenuForMobile">                
+                <li><a href="">Contact</a></li>
+                <li><a href="">Newsletter</a></li>
+                <li><a href="">LinkedIn</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <div class="buttonContainerMobile">
+        <button type="button" class="loginButton">Login</button>
+        <button type="button" class="SignUpButton">Sign Up</button>
       </div>
     </div>
     <div class="mainPart">
@@ -145,6 +186,16 @@
   </footer>
 </body>
 <script>
-  
+  function makeMenu() {
+    let buttontoChange = document.querySelector(".buttonForMenu");
+    if(buttontoChange.src = "images/icon-hamburger.svg"){
+      buttontoChange.src = "images/icon-close.svg";
+    } 
+  }
+  function showMenu(){
+    let menuToClick = document.querySelector(".downforMobile");
+    let menuToShow = document.querySelector(".submenuforMobile");
+    
+  }
 </script>
 </html>

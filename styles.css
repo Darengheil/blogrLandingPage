@@ -470,7 +470,7 @@ footer a:hover{
 
     .phonesImage{
         width: 100%;
-        top: 290%;
+        top: 285%;
         left: 0;
     }
 
@@ -517,6 +517,75 @@ footer a:hover{
 
     .footerLogo{
         margin-bottom: 4em;
+    }
+
+    .forMenuFormButton{
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        width: 90%;
+        z-index: 100;
+        position: absolute;
+        top: 15%;
+        background-color: white;
+        height: 40%;
+        left: 5%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .topmenu{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .topmenu li a{
+        color: hsl(208, 49%, 24%);
+    }
+
+    .arrow{
+        color:hsl(356, 100%, 66%);
+    }
+
+    .buttonContainerMobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-top: 1px solid hsl(240, 2%, 79%);
+        width: 90%;
+    }
+
+    .loginButton{
+        color: hsl(208, 49%, 24%);
+        margin: 0;
+        padding:  0 2em;
+        padding-top: 2em;
+        padding-bottom: 1em;
+    }
+
+    .SignUpButton{
+        padding: 0.8em 2em;
+        background: rgb(255,143,112);
+        background: linear-gradient(135deg, rgba(255,143,112,1) 0%, rgba(255,61,84,1) 35%);
+        color: white;
+    }
+
+    .downforMobile{
+        text-align: center;
+    }
+
+    .submenuforMobile{
+        width: 300px;
+        background-color: hsl(240, 2%, 79%);
+        border-radius: 5px;
+        padding: 1em 0;
+        display: none;
+    }
+
+    .submenuforMobile li{        
+        padding: 0.5em 0;
+        text-align: center;
     }
 
 }
