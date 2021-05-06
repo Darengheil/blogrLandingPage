@@ -213,6 +213,12 @@ nav a{
     overflow: hidden;
 }
 
+.firstItem h1{
+    color: hsl(208, 49%, 24%);
+    font-size: 40px;
+    text-align: center;
+}
+
 .firstItemandImage{
     display: flex; 
     margin-top: 4em;
@@ -235,6 +241,10 @@ nav a{
     font-weight: 300;
 }
 
+.forMargin{
+    margin-bottom: 4em;
+}
+
 .editorImage{
     position: absolute;
     top: 5%;
@@ -253,6 +263,16 @@ nav a{
     border-top-right-radius: 80px;
     position: relative;
     overflow: hidden;
+}
+
+.secondItem h1{
+    color: white; 
+    font-size: 40px;
+}
+
+.secondItem p{
+    color: white; 
+    font-size: 16px;
 }
 
 .secondItemText{    
@@ -386,8 +406,100 @@ footer a:hover{
         width: 400%;
     }
 
+    .firstItem h1{
+        font-size: 30px;
+    }
+
+    .firstItemandImage{
+        margin-left: 0;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .textFirstItem{
+        width: 90%;
+        margin-left: 0;
+        padding: 0 1em;
+        text-align: center;
+    }
+
+    .textFirstItem h2{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    .forMargin{
+        margin-bottom: 1em;
+    }
+
+    .editorImage{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 2em;
+    }
+
+    .secondItem{
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+        padding-top: 5em;
+        margin-bottom: 0;
+        height: 500px;
+    }
+
+    .secondItemText{
+        width: 90%;
+    }
+
+    .secondItem h1{
+        font-size: 33px;
+    }
+    
+    .secondItem p{
+        font-size: 18px;
+    }
+
+    .circlesPhones{
+        width: 150%;
+        left: -25%;
+        top: -40%;
+    }
+
     .phonesImage{
         width: 100%;
+        top: 290%;
+        left: 0;
     }
+
+    .thirdItem{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 3em 0 ;
+    }
+
+    .thirdItemText{
+        margin-right: 0;
+        width: 90%;
+        text-align: center;
+    }
+
+    .thirdItemText h2{
+        font-size: 30px;
+    }
+
+    .thirdItemText p{
+        font-size: 18px;
+    }
+
+    .laptopImage{
+        position: relative;
+        left:0;
+        top: 0;
+    }
+
+    
 
 }
