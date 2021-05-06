@@ -112,6 +112,10 @@ nav a{
     font-weight: 700;
 }
 
+.buttonForMenu{
+    display: none;
+}
+
 .loginButton{
     font-family: "Ubuntu";
     font-size: 16px;
@@ -148,6 +152,18 @@ nav a{
     flex-direction: column;
     align-items: center;
     position: relative;
+}
+
+.descriptionForHeader h1{
+    color:white;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.descriptionForHeader p{
+    color: white; 
+    font-size: 20px; 
+    margin-top: 0.5em;
 }
 
 .buttonHeaderContainer{
@@ -269,8 +285,9 @@ nav a{
 }
 
 .laptopImage{
-    position: absolute;    
+    position: absolute;   
     left: -5%;
+    top: 205%;
 }
 
 footer{
@@ -322,5 +339,55 @@ footer a:hover{
 }
 
 @media (max-width: 900px) {
+    .leftUppercontainer{
+        flex-direction: column;
+    }
+
+    .buttonForMenu{
+        display: block;
+    }
+
+    .descriptionForHeader{
+        text-align: center;
+        padding: 0 2em;
+    }
+
+    .descriptionForHeader h1{
+        font-size: 33px;
+    }
+
+    .descriptionForHeader p{
+        font-size: 18px;
+    }
+
+    .startForFreeButton{
+        padding: 1em 1em;
+    }
+
+    .learnMoreButton{
+        padding: 1em 1em;
+    }
+
+    .uppernav{
+        display: none;
+    }
+
+    .upperButtonsContainer{
+        display: none;
+    }
+
+    .header{
+        padding: 4em 2em;
+    }
+
+    .introImage{
+        top: -55%;
+        left: -100%;
+        width: 400%;
+    }
+
+    .phonesImage{
+        width: 100%;
+    }
 
 }

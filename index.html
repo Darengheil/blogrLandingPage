@@ -44,14 +44,15 @@
             </ul>
           </nav>
         </div>
-        <div>
+        <img src="images/icon-hamburger.svg" class="buttonForMenu">
+        <div class="upperButtonsContainer">
           <button type="button" class="loginButton">Login</button>
           <button type="button" class="SignUpButton">Sign Up</button>
         </div>
       </div>
       <div class="descriptionForHeader">
-        <h1 style="color:white; font-size: 60px; margin-bottom: 0;">A modern publishing platform</h1>
-        <p style="color: white; font-size: 20px; margin-top: 0.5em;">Grow your audience and build your online brand</p>
+        <h1>A modern publishing platform</h1>
+        <p>Grow your audience and build your online brand</p>
         <div class="buttonHeaderContainer">
           <button type="button" class="startForFreeButton">Start for Free</button>
           <button type="button" class="learnMoreButton">Learn More</button>
@@ -92,7 +93,10 @@
       </div>        
       <img src="images/illustration-phones.svg" class="phonesImage">
       <div class="thirdItem">
-        <img src="images/illustration-laptop-desktop.svg" class="laptopImage">
+        <picture>
+          <source srcset="images/illustration-laptop-mobile.svg" media="(max-width:900px)">
+          <img src="images/illustration-laptop-desktop.svg" class="laptopImage">
+        </picture>
         <div class="thirdItemText">
           <div>
             <h2 style="color: hsl(208, 49%, 24%);">Free, open, simple</h2>
