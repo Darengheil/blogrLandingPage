@@ -358,7 +358,7 @@ footer a:hover{
     color: white;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 900px) {    
     .leftUppercontainer{
         flex-direction: column;
     }
@@ -438,6 +438,7 @@ footer a:hover{
         top: 0;
         left: 0;
         margin-bottom: 2em;
+        width: 100%;
     }
 
     .secondItem{
@@ -496,10 +497,26 @@ footer a:hover{
 
     .laptopImage{
         position: relative;
+        width: 100%;
         left:0;
         top: 0;
     }
 
-    
+    footer{
+        padding: 5em 0;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 3em;
+    }
+
+    .footerLinks{
+        margin-bottom: 2em;
+        margin-top: 1.5em;
+    }
+
+    .footerLogo{
+        margin-bottom: 4em;
+    }
 
 }
