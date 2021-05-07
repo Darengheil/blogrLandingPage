@@ -255,13 +255,14 @@ nav a{
     display: flex;
     background: rgb(44,45,63);
     background: linear-gradient(135deg, rgba(44,45,63,1) 0%, rgba(63,65,100,1) 35%);
-    align-items: center;
+    align-items: flex-end;
     padding: 7em;
     margin-bottom: 5em;
     justify-content: flex-end;
     border-bottom-left-radius: 80px;
     border-top-right-radius: 80px;
     position: relative;
+    flex-direction: column;
     overflow: hidden;
 }
 
@@ -285,11 +286,6 @@ nav a{
     left: 10%;
     top: 152%;
 }
-.circlesPhones{
-    position: absolute;
-    left: -5%;
-    top: -120%;
-}
 
 .thirdItem{
     display : flex;
@@ -297,6 +293,11 @@ nav a{
     align-items: center;
     padding: 10em 0;
     padding-bottom: 15em;
+}
+.circlesPhones{
+    position: absolute;
+    top: -120%;
+    left: -3%;
 }
 
 .thirdItemText{
@@ -356,6 +357,10 @@ footer ul{
 footer a:hover{
     text-decoration: underline;
     color: white;
+}
+
+.forMenuFormButton{
+    display: none;
 }
 
 @media (max-width: 900px) {    
@@ -469,9 +474,10 @@ footer a:hover{
     }
 
     .phonesImage{
+        position: relative;
         width: 100%;
-        top: 285%;
         left: 0;
+        top: 10%;
     }
 
     .thirdItem{
@@ -528,10 +534,12 @@ footer a:hover{
         position: absolute;
         top: 15%;
         background-color: white;
-        height: 40%;
+        height: 70%;
         left: 5%;
         justify-content: space-around;
         align-items: center;
+        margin-top: 1em;
+        z-index: 100;
     }
 
     .topmenu{
